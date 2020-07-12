@@ -2,7 +2,7 @@
 
 #heading {
   width: 40%;
-  margin: 0 auto 0 50%;
+  margin: 0 auto 0 40%;
 }
 
 #nametag {
@@ -19,7 +19,7 @@ a {
 #footing {
   img {
     height: 2.5rem;
-    width: fit-content;
+    width: initial;
     float: right;
   }
 }
@@ -27,8 +27,7 @@ a {
 .deck {
   align-items: center;
   align-content: center;
-  margin: 1rem auto 1rem;
-  padding: 0 2rem;
+  margin: 1rem auto;
   columns: 1;
   width: 90%;
   max-width: 500px;
