@@ -18,7 +18,8 @@
     "postcss-cli": "^7.1.1",
     "prettier": "^2.0.5",
     "serve": "^11.3.2",
-    "svgo": "1.3.2"
+    "svgo": "1.3.2",
+    "imagemin-webp": "^6.0.0"
   },
   "engines": {
     "node": "^12.13.1"
@@ -40,6 +41,7 @@
     "build:png": "imagemin 'assets/png/*' --out-dir=dist/png/",
     "build:svg": "svgo -q --multipass assets/svg/*.svg -o dist/svg/",
     "build:html": "html-minifier --collapse-whitespace --remove-comments --remove-tag-whitespace --use-short-doctype --minify-css true --minify-js true --input-dir src/ --output-dir ./ --file-ext html",
+    "build:webp": "imagemin --plugin=webp --plugin.webp.quality=100 --plugin.webp.method=6 'assets/png/*' --out-dir=dist/png/",
     "pretty:html": "prettier --print-width 110 --write src/*.html",
     "pretty:scss": "prettier --print-width 110 --write 'src/**/*.scss'",
     "build": "run-p build:**",
