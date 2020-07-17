@@ -3,6 +3,9 @@
  */
 
 module.exports = {
+  siteMetadata: {
+    siteUrl: `https://felixity-the-cat.github.io`,
+  },
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-transformer-sharp`,
@@ -36,5 +39,8 @@ module.exports = {
         },
       },
     },
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
+    `gatsby-plugin-postcss`,
   ],
 }
