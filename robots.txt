@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://felixity-the-cat.github.io/sitemap.xml
+Host: https://felixity-the-cat.github.io
