@@ -7,6 +7,9 @@
 
 * text=auto
 
+## Idiosyncratic
+docs/** binary linguist-generated=true
+
 ## SOURCE CODE
 *.bat      text eol=crlf
 *.coffee   text
