@@ -26,6 +26,9 @@ module.exports = {
         lang: `en`,
         start_url: `/`,
         icon: `src/images/F.svg`,
+        icon_options: {
+          purpose: `maskable`,
+        },
         background_color: `#fff`,
         theme_color: `#046a38`,
         display: `standalone`,

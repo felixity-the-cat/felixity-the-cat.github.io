@@ -21,6 +21,31 @@ export default function Home({ data }) {
           name="keywords"
           content="Felixity,the cat,tuxedo cats,instagram"
         />
+
+        <meta property="og:title" content="Felixity the Cat's purrsonal site" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content={TitleSVG} />
+        <meta property="og:url" content="https://felixity-the-cat.github.io/" />
+        <meta
+          property="og:description"
+          content="Home page of your favorite Instagram purrsonality, @felixity_the_cat"
+        />
+        <meta property="og:locale" content="en_US" />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:site" content="@FelixityTheCat" />
+        <meta name="twitter:creator" content="@burkh4rt" />
+        <meta
+          name="twitter:title"
+          content="Felixity the Cat's purrsonal site"
+        />
+        <meta
+          name="twitter:description"
+          content="Home page of your favorite Twitter purrsonality, @FelixityTheCat"
+        />
+        <meta property="twitter:image" content={TitleSVG} />
+        <meta name="twitter:dnt" content="on" />
+        <link rel="me" href="https://twitter.com/FelixityTheCat" />
       </Helmet>
 
       <Deck>
