@@ -5,6 +5,7 @@
 module.exports = {
   siteMetadata: {
     siteUrl: `https://felixity-the-cat.github.io`,
+    twitterUsername: `FelixityTheCat`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

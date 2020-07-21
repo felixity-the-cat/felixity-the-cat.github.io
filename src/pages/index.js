@@ -82,8 +82,8 @@ export const query = graphql`
   query MyQuery {
     file(relativePath: { eq: "combined_content.png" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 100) {
-          ...GatsbyImageSharpFluid
+        fluid(maxWidth: 500, quality: 95) {
+          ...GatsbyImageSharpFluid_withWebp_tracedSVG
         }
       }
     }
