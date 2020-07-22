@@ -46,6 +46,39 @@ export default function Home({ data }) {
         <meta property="twitter:image" content={TitleSVG} />
         <meta name="twitter:dnt" content="on" />
         <link rel="me" href="https://twitter.com/FelixityTheCat" />
+
+        <script type="application/ld+json">
+          {`
+              {
+              "@context": "http://schema.org/",
+              "@type": "Person",
+              "name": "Felixity",
+              "additionalName": "the Cat",
+              "birthPlace": {
+                "@type": "Place",
+                "address": {
+                  "addressLocality": "San José",
+                  "addressRegion": "CA",
+                  "addressCountry": "US"
+                  }
+                },
+              "gender": "http://schema.org/Female",
+              "givenName": "Felixity",
+              "knowsAbout": "cat stuff",
+              "nationality": "US",
+              "relatedTo": {
+                "@type": "Person",
+                "name": "Michael C. Burkhart",
+                "sameAs": "https://burkh4rt.github.io"
+                },
+              "sameAs": [
+                "https://felixity-the-cat.github.io",
+                "https://www.instagram.com/felixity_the_cat",
+                "https://twitter.com/FelixityTheCat"
+                ]
+              }
+          `}
+        </script>
       </Helmet>
 
       <Deck>
