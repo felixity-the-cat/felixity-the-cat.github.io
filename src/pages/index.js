@@ -101,11 +101,11 @@ export default function Home({ data }) {
           </a>
         </Nametag>
 
-        <div>
+        <footer>
           <a href="https://burkh4rt.github.io/" target="_blank" rel="noopener">
             <FootingImage src={Byline} alt="Michael C. Burkhart, author" />
           </a>
-        </div>
+        </footer>
       </Deck>
     </>
   )

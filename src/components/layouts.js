@@ -11,12 +11,12 @@ export const Deck = styled.div`
   display: block;
 `
 
-export const Heading = styled.div`
+export const Heading = styled.header`
   width: 40%;
   margin: 0 auto 0 40%;
 `
 
-export const Nametag = styled.div`
+export const Nametag = styled.main`
   width: 70%;
   margin: 3rem auto;
 `
