@@ -25,7 +25,7 @@ export default function Home({ data }) {
         <meta property="og:title" content="Felixity the Cat's purrsonal site" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content={TitleSVG} />
-        <meta property="og:url" content="https://felixity-the-cat.github.io/" />
+        <meta property="og:url" content="https://felixity-the-cat.github.io" />
         <meta
           property="og:description"
           content="Home page of your favorite Instagram purrsonality, @felixity_the_cat"
@@ -90,7 +90,7 @@ export default function Home({ data }) {
 
         <Nametag>
           <a
-            href="https://www.instagram.com/felixity_the_cat/"
+            href="https://www.instagram.com/felixity_the_cat"
             target="_blank"
             rel="noopener"
           >
@@ -102,7 +102,7 @@ export default function Home({ data }) {
         </Nametag>
 
         <footer>
-          <a href="https://burkh4rt.github.io/" target="_blank" rel="noopener">
+          <a href="https://burkh4rt.github.io" target="_blank" rel="noopener">
             <FootingImage src={Byline} alt="Michael C. Burkhart, author" />
           </a>
         </footer>
