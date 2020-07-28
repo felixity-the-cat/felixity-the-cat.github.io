@@ -21,6 +21,7 @@
     "styled-components": "^5.1.1"
   },
   "devDependencies": {
+    "gatsby-plugin-html-attributes": "^1.0.5",
     "gatsby-plugin-postcss": "^2.3.11",
     "gatsby-plugin-robots-txt": "^1.5.1",
     "gatsby-plugin-sitemap": "^2.4.11",
