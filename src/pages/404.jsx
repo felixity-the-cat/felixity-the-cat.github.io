@@ -4,9 +4,9 @@ import { Link } from "gatsby"
 
 import TitleSVG from "../images/felixity_the_cat.svg"
 
-import { Deck, Heading, Nametag, FootingImage } from "../components/layouts"
+import { Deck, Heading, Nametag } from "../components/layouts"
 
-export default function Home({ data }) {
+export default function Home() {
   return (
     <>
       <Helmet>
