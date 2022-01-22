@@ -1,7 +1,7 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
-import Img from "gatsby-image"
+import { GatsbyImage } from "gatsby-plugin-image"
 
 import Byline from "../images/byline.svg"
 import TitleSVG from "../images/felixity_the_cat.svg"
@@ -94,8 +94,8 @@ export default function Home({ data }) {
             target="_blank"
             rel="noopener"
           >
-            <Img
-              fluid={data.file.childImageSharp.fluid}
+            <GatsbyImage
+              image={data.file.childImageSharp.gatsbyImageData}
               alt="link to Felixity the cat"
             />
           </a>
@@ -112,13 +112,20 @@ export default function Home({ data }) {
 }
 
 export const query = graphql`
-  query MyQuery {
+  query {
     file(relativePath: { eq: "combined_content.png" }) {
       childImageSharp {
-        fluid(maxWidth: 500, quality: 95) {
-          ...GatsbyImageSharpFluid_withWebp_tracedSVG
-        }
+        gatsbyImageData(
+          quality: 85
+          placeholder: TRACED_SVG
+          layout: CONSTRAINED
+          formats: [AUTO, WEBP, AVIF]
+          transformOptions: { fit: INSIDE, cropFocus: ATTENTION }
+        )
       }
+    }
+    site {
+      year: buildTime(formatString: "YYYY")
     }
   }
 `
