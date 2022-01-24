@@ -3,10 +3,10 @@ import { Helmet } from "react-helmet"
 import { graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
-import Byline from "../images/byline.svg"
+import Fonts from "../components/fonts"
 import TitleSVG from "../images/felixity_the_cat.svg"
 
-import { Deck, Heading, Nametag, FootingImage } from "../components/layouts"
+import { Deck, Heading, Nametag, Footing } from "../components/layouts"
 
 export default function Home({ data }) {
   return (
@@ -80,33 +80,36 @@ export default function Home({ data }) {
           `}
         </script>
       </Helmet>
+      <body>
+        <Fonts />
 
-      <Deck>
-        <Heading>
-          <picture>
-            <img src={TitleSVG} alt="me" />
-          </picture>
-        </Heading>
+        <Deck>
+          <Heading>
+            <picture>
+              <img src={TitleSVG} alt="me" />
+            </picture>
+          </Heading>
 
-        <Nametag>
-          <a
-            href="https://www.instagram.com/felixity_the_cat"
-            target="_blank"
-            rel="noopener"
-          >
-            <GatsbyImage
-              image={data.file.childImageSharp.gatsbyImageData}
-              alt="link to Felixity the cat"
-            />
-          </a>
-        </Nametag>
+          <Nametag>
+            <a
+              href="https://www.instagram.com/felixity_the_cat"
+              target="_blank"
+              rel="noopener"
+            >
+              <GatsbyImage
+                image={data.file.childImageSharp.gatsbyImageData}
+                alt="Felixity the cat"
+              />
+            </a>
+          </Nametag>
 
-        <footer>
-          <a href="https://burkh4rt.github.io" target="_blank" rel="noopener">
-            <FootingImage src={Byline} alt="Michael C. Burkhart, author" />
-          </a>
-        </footer>
-      </Deck>
+          <Footing>
+            <a href="https://burkh4rt.github.io" target="_blank" rel="noopener">
+              <p>© Michael C. Burkhart, {data.site.year}</p>
+            </a>
+          </Footing>
+        </Deck>
+      </body>
     </>
   )
 }

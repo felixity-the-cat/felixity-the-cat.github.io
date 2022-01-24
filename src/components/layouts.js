@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import Fonts from "./fonts"
 
 export const Deck = styled.div`
   align-items: center;
@@ -9,6 +10,7 @@ export const Deck = styled.div`
   width: 90%;
   max-width: 500px;
   display: block;
+  font-family: "Billabong";
 `
 
 export const Heading = styled.header`
@@ -21,8 +23,20 @@ export const Nametag = styled.main`
   margin: 3rem auto;
 `
 
-export const FootingImage = styled.img`
-  height: 2.5rem;
-  width: initial;
-  float: right;
+export const Footing = styled.footer`
+  display: flex;
+  justify-content: flex-end;
+  * {
+    text-align: right;
+    font-size: 1.3rem;
+  }
+  a {
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none;
+    :hover {
+      font-weight: bolder;
+      text-decoration: none;
+    }
+  }
 `
