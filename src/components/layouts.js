@@ -7,10 +7,10 @@ export const Deck = styled.div`
   align-content: center;
   margin: 1rem auto;
   columns: 1;
-  width: 90%;
+  width: 80%;
   max-width: 500px;
   display: block;
-  font-family: "Billabong";
+  font-family: "Billabong", "Grand Hotel", cursive;
 `
 
 export const Heading = styled.header`
