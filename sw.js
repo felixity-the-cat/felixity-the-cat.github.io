@@ -27,188 +27,252 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
+    "url": "175-ccfb79fa598103aff433.js"
+  },
+  {
+    "url": "175-ccfb79fa598103aff433.js.map",
+    "revision": "4e0d565380d6492a8b0454483d3394cd"
+  },
+  {
+    "url": "231-7cede0fd63200e1deba8.js"
+  },
+  {
+    "url": "231-7cede0fd63200e1deba8.js.map",
+    "revision": "452155f9d78132f534b29447b367fd9f"
+  },
+  {
+    "url": "2525ca2b4881fe9911cbb8081340847caf7a19a3-6ca668b8df74af635023.js"
+  },
+  {
+    "url": "2525ca2b4881fe9911cbb8081340847caf7a19a3-6ca668b8df74af635023.js.map",
+    "revision": "97faa825de7ea7216f74ef75b27c02f9"
+  },
+  {
+    "url": "2525ca2b4881fe9911cbb8081340847caf7a19a3-8a7d2dd9522e72b060b4.js"
+  },
+  {
+    "url": "2525ca2b4881fe9911cbb8081340847caf7a19a3-8a7d2dd9522e72b060b4.js.map",
+    "revision": "3f276b4613d63ec774bf995e1b61dc09"
+  },
+  {
     "url": "404.html",
-    "revision": "7387fbfacb4338aa7480eb4f7164e0be"
+    "revision": "ff30758cf2cc0383e7773c921afb64ae"
   },
   {
     "url": "404/index.html",
-    "revision": "ba73ef9c1a11a875fc89fa1e6f928184"
+    "revision": "01065c40b8473438bfce3898f1a2026c"
   },
   {
-    "url": "app-1e490c75ecac4c6a0013.js"
+    "url": "503-84811d4a8a749e826c43.js"
   },
   {
-    "url": "app-1e490c75ecac4c6a0013.js.map",
-    "revision": "9b457a2b840e378ec8a453ea72b4a789"
+    "url": "503-84811d4a8a749e826c43.js.map",
+    "revision": "f9f675e7c8182ac6f1d47a7101a5f01d"
+  },
+  {
+    "url": "app-f2284966a3b574059f12.js"
+  },
+  {
+    "url": "app-f2284966a3b574059f12.js.LICENSE.txt",
+    "revision": "6fce53c7c7713ebf61712cc2929746fa"
+  },
+  {
+    "url": "app-f2284966a3b574059f12.js.map",
+    "revision": "1178d6eb87de0586f6868b3b18aa8d46"
   },
   {
     "url": "chunk-map.json",
-    "revision": "da02757e9227ad94717b81e915cbe484"
+    "revision": "6fb3d8aa154f9d5c7d7c61222e311a46"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-7c31e2436cade51cbcda.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-7b47388f026eb12218d0.js"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-7c31e2436cade51cbcda.js.map",
-    "revision": "73fab470230271ac23de3b660b41bd46"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-7b47388f026eb12218d0.js.map",
+    "revision": "7d7e9348730bedec10d97e611259f53f"
   },
   {
-    "url": "component---src-pages-404-js-a074e8b8dbab78d30535.js"
+    "url": "component---src-pages-404-jsx-ece90e74cd2aa7944bec.js"
   },
   {
-    "url": "component---src-pages-404-js-a074e8b8dbab78d30535.js.map",
-    "revision": "134e0b68cd7b290c6a8a832be48839db"
+    "url": "component---src-pages-404-jsx-ece90e74cd2aa7944bec.js.map",
+    "revision": "48988636facbc8e9c68badbad7da5afc"
   },
   {
-    "url": "component---src-pages-index-js-4de9cd975794dfd956b4.js"
+    "url": "component---src-pages-index-jsx-9789de96aa4649144f8b.js"
   },
   {
-    "url": "component---src-pages-index-js-4de9cd975794dfd956b4.js.map",
-    "revision": "4f86e1e404d26816ec186145ff204e3b"
-  },
-  {
-    "url": "e50e9c162871c1d91fba5ce567a5656e16dc6783-93ee4f32a3c3631b6c51.js"
-  },
-  {
-    "url": "e50e9c162871c1d91fba5ce567a5656e16dc6783-93ee4f32a3c3631b6c51.js.map",
-    "revision": "8cdc407cb4ffb6dd24804d37476610df"
+    "url": "component---src-pages-index-jsx-9789de96aa4649144f8b.js.map",
+    "revision": "d7bd670e0f6bd427d1be4834da7eb639"
   },
   {
     "url": "favicon-32x32.png",
-    "revision": "50a6a8a733310bff9ee79d2dd6f0655f"
+    "revision": "224ced249ab342520f4db0c0672936b1"
   },
   {
     "url": "favicon.svg",
     "revision": "4e032a896d328a2f78d6d7045118ac18"
   },
   {
-    "url": "framework-a576ae5ab153fa4a7c27.js"
+    "url": "framework-f349ac6340b825a84156.js"
   },
   {
-    "url": "framework-a576ae5ab153fa4a7c27.js.map",
-    "revision": "93827e9ae5e1ecfb372843b664b62144"
+    "url": "framework-f349ac6340b825a84156.js.LICENSE.txt",
+    "revision": "34ad9c8bf4d74905b6b042d9f6310c3b"
+  },
+  {
+    "url": "framework-f349ac6340b825a84156.js.map",
+    "revision": "02ba55c9f70a31ebe690dbfaf6629c52"
   },
   {
     "url": "icons/icon-144x144.png",
-    "revision": "a357006864e3d83f35e994d7cf8d35d1"
+    "revision": "12df20ef15dbee6ea46a7b1bcb091bb5"
   },
   {
     "url": "icons/icon-192x192.png",
-    "revision": "0583d85f3102c14f11a9608df620a096"
+    "revision": "45a816cccc86e1b04d417bd71d792768"
   },
   {
     "url": "icons/icon-256x256.png",
-    "revision": "75e25b6f7343f086b6cf9249fdcc6524"
+    "revision": "d168c9d3e87506a39f1f100c1ddd7105"
   },
   {
     "url": "icons/icon-384x384.png",
-    "revision": "cc1bdb48c87f4668f08a8288665ab9d7"
+    "revision": "c57392e7615ceecf0d3c82e7accc07fb"
   },
   {
     "url": "icons/icon-48x48.png",
-    "revision": "90fa6fb602aa5a8642815b147bae1e75"
+    "revision": "1ea47aaf4c1792a2bf4593a7f0a730db"
   },
   {
     "url": "icons/icon-512x512.png",
-    "revision": "e5d18453908d24b1c9810771494f37f4"
+    "revision": "c4c26a6b0a0b847a373b3e19deb9e3d9"
   },
   {
     "url": "icons/icon-72x72.png",
-    "revision": "d179d53308b5329c7dbb158bac8eb442"
+    "revision": "c0a15860d61fdbe8295336dd32c856f7"
   },
   {
     "url": "icons/icon-96x96.png",
-    "revision": "0b3b7c2335aef02eeacad96078823161"
+    "revision": "ef36681ca140ff9694060ade0f4b27a6"
   },
   {
     "url": "idb-keyval-3.2.0-iife.min.js"
   },
   {
     "url": "index.html",
-    "revision": "b64d234d251f77eaac11c6190d61bd7e"
+    "revision": "4baf1d4524242bbfda3ccfa849c71cf4"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "2eaaa2bad660be5c89a404a0a0ad0bce"
+    "revision": "237e8e8a82158b3c3bca75d46553a99e"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "39d0ab9d2a4a89bf0af9393f512e2de2"
+    "revision": "f3cbdfc4337b9e6c199eded47c3cd973"
   },
   {
     "url": "page-data/404.html/page-data.json",
-    "revision": "73b53c376c0c6df9ec96677d201cf94b"
+    "revision": "171dbd7715a9e8a895d7a36888770c1c"
   },
   {
     "url": "page-data/404/page-data.json",
-    "revision": "517e1f8ce5610edb94d7dea4bede4428"
+    "revision": "db4523ee118a4df37d9ae53cca625f83"
   },
   {
     "url": "page-data/app-data.json",
-    "revision": "1d8fd9a5b807b844b103de474b8c5a13"
+    "revision": "8aa1598949cfd7952607ea2722e42f8b"
   },
   {
     "url": "page-data/index/page-data.json",
-    "revision": "f6f657399ba70f25f59426bd9d3ed3e3"
+    "revision": "1268b9e60328196b02088437dbd9bada"
   },
   {
     "url": "page-data/offline-plugin-app-shell-fallback/page-data.json",
-    "revision": "f6081b83111aea4128c98944b7fafccc"
+    "revision": "f2c002077289a7e1ac538802bc7f5314"
   },
   {
-    "url": "polyfill-830cd53ca5c6720b5926.js"
+    "url": "polyfill-063a54ddf19d2d07635a.js"
   },
   {
-    "url": "polyfill-830cd53ca5c6720b5926.js.map",
-    "revision": "0c0ba94d94d6521b2d1611a8e0ffd435"
+    "url": "polyfill-063a54ddf19d2d07635a.js.map",
+    "revision": "acf3e0ce14dbdefe31c958bb91dce722"
   },
   {
-    "url": "static/byline-20f461669ac3d95a3e4d00b67788dda5.svg"
+    "url": "robots.txt",
+    "revision": "0b02b4549c57b2c93d395ec0dae27461"
   },
   {
-    "url": "static/d01187b2dade0fbaed431c5a8d229f72/09f27/combined_content.webp"
+    "url": "sitemap/sitemap-0.xml",
+    "revision": "e4b830f0560b850362e0ca1b13c8c925"
   },
   {
-    "url": "static/d01187b2dade0fbaed431c5a8d229f72/0b5f9/combined_content.webp"
+    "url": "sitemap/sitemap-index.xml",
+    "revision": "b2efe8ac852d06cfd39e0f17e80913e7"
   },
   {
-    "url": "static/d01187b2dade0fbaed431c5a8d229f72/20023/combined_content.png"
+    "url": "static/Billabong-15b124bd411b94e1da8914b4e10b7af7.woff2"
   },
   {
-    "url": "static/d01187b2dade0fbaed431c5a8d229f72/3d4cf/combined_content.png"
+    "url": "static/Billabong-23b39ea3caf10dd1cfd5cac701c284c4.otf"
   },
   {
-    "url": "static/d01187b2dade0fbaed431c5a8d229f72/5206a/combined_content.png"
+    "url": "static/Billabong-b8d9be2d62a292c0c6dc4293c8cf3f8d.woff"
   },
   {
-    "url": "static/d01187b2dade0fbaed431c5a8d229f72/95d4a/combined_content.webp"
+    "url": "static/d01187b2dade0fbaed431c5a8d229f72/098b6/combined_content.png"
   },
   {
-    "url": "static/d01187b2dade0fbaed431c5a8d229f72/cdb45/combined_content.png"
+    "url": "static/d01187b2dade0fbaed431c5a8d229f72/1d1cf/combined_content.png"
   },
   {
-    "url": "static/d01187b2dade0fbaed431c5a8d229f72/fabd0/combined_content.webp"
+    "url": "static/d01187b2dade0fbaed431c5a8d229f72/25553/combined_content.avif"
   },
   {
-    "url": "static/felixity_the_cat-a33264bde9e0a8389dfbf2268c6d5911.svg"
+    "url": "static/d01187b2dade0fbaed431c5a8d229f72/31591/combined_content.avif"
   },
   {
-    "url": "webpack-runtime-c86f5c41c4b4247f7a88.js"
+    "url": "static/d01187b2dade0fbaed431c5a8d229f72/4119b/combined_content.webp"
   },
   {
-    "url": "webpack-runtime-c86f5c41c4b4247f7a88.js.map",
-    "revision": "8afeba1584e04c1ed3f5b641d26fbb56"
+    "url": "static/d01187b2dade0fbaed431c5a8d229f72/464b2/combined_content.avif"
+  },
+  {
+    "url": "static/d01187b2dade0fbaed431c5a8d229f72/bda91/combined_content.webp"
+  },
+  {
+    "url": "static/d01187b2dade0fbaed431c5a8d229f72/d209c/combined_content.webp"
+  },
+  {
+    "url": "static/d01187b2dade0fbaed431c5a8d229f72/e48ab/combined_content.png"
+  },
+  {
+    "url": "static/felixity_the_cat-600dc9a3afab2f5014aad3d7a4bbaa7e.svg"
+  },
+  {
+    "url": "webpack-runtime-62f9e7db8735c3b18f51.js"
+  },
+  {
+    "url": "webpack-runtime-62f9e7db8735c3b18f51.js.map",
+    "revision": "adf5d33218a3440086f595d052810172"
+  },
+  {
+    "url": "webpack-runtime-f87bb9294629235feeba.js"
+  },
+  {
+    "url": "webpack-runtime-f87bb9294629235feeba.js.map",
+    "revision": "f96b4f99dbfe748aa5692d8cb50aeb0f"
   },
   {
     "url": "webpack.stats.json",
-    "revision": "9bcbdd3b5ce483aa98013f4427e4b8f5"
+    "revision": "e71c5619a5b591be1e3e3898c06277ff"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
 workbox.routing.registerRoute(/^https?:.*\/page-data\/.*\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|avif|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
@@ -227,6 +291,24 @@ const MessageAPI = {
 
   clearPathResources: event => {
     event.waitUntil(idbKeyval.clear())
+
+    // We detected compilation hash mismatch
+    // we should clear runtime cache as data
+    // files might be out of sync and we should
+    // do fresh fetches for them
+    event.waitUntil(
+      caches.keys().then(function (keyList) {
+        return Promise.all(
+          keyList.map(function (key) {
+            if (key && key.includes(`runtime`)) {
+              return caches.delete(key)
+            }
+
+            return Promise.resolve()
+          })
+        )
+      })
+    )
   },
 
   enableOfflineShell: () => {
@@ -293,7 +375,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-1e490c75ecac4c6a0013.js`))) {
+  if (!resources || !(await caches.match(`/app-f2284966a3b574059f12.js`))) {
     return await fetch(event.request)
   }
 
