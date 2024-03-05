@@ -226,6 +226,18 @@ self.__precacheManifest = [
     "revision": "34556a6e12e70b42c7446ddc74ef76ae"
   },
   {
+    "url": "robots.txt",
+    "revision": "887c34e2dbcb42e863ca87ae40369ab4"
+  },
+  {
+    "url": "sitemap-0.xml",
+    "revision": "e4b830f0560b850362e0ca1b13c8c925"
+  },
+  {
+    "url": "sitemap-index.xml",
+    "revision": "96cbe00146da6654d118e4d19b273cdd"
+  },
+  {
     "url": "static/Billabong-15b124bd411b94e1da8914b4e10b7af7.woff2"
   },
   {
