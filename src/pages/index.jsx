@@ -119,8 +119,8 @@ export const query = graphql`
     file(relativePath: { eq: "combined_content.png" }) {
       childImageSharp {
         gatsbyImageData(
-          quality: 85
-          placeholder: TRACED_SVG
+          quality: 95
+          placeholder: BLURRED
           layout: CONSTRAINED
           formats: [AUTO, WEBP, AVIF]
           transformOptions: { fit: INSIDE, cropFocus: ATTENTION }
