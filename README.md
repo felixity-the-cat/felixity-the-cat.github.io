@@ -8,4 +8,5 @@ The source code lives in the dev branch and the distribution itself that powers 
 yarn
 yarn up
 yarn build
+yarn deploy
 ```
