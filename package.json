@@ -43,5 +43,6 @@
     "clean": "gatsby clean",
     "deploy": "gh-pages -d public -b master"
   },
-  "version": "1.1.0"
+  "version": "1.1.0",
+  "packageManager": "yarn@4.1.1"
 }
