@@ -29,7 +29,7 @@ module.exports = {
         start_url: `/`,
         icon: `src/images/F.svg`,
         icon_options: {
-          purpose: `maskable`,
+          purpose: `any maskable`,
         },
         background_color: `#fff`,
         theme_color: `#046a38`,

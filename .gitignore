@@ -1,6 +1,7 @@
 # Idiosyncratic
 public/**
 .yarn/**
+.pnp**
 
 # Logs
 logs

@@ -99,6 +99,7 @@ export default function Home({ data }) {
               <GatsbyImage
                 image={data.file.childImageSharp.gatsbyImageData}
                 alt="Felixity the cat"
+                loading="eager"
               />
             </a>
           </Nametag>
