@@ -4,7 +4,7 @@ import { graphql } from "gatsby"
 import { GatsbyImage } from "gatsby-plugin-image"
 
 import Fonts from "../components/fonts"
-import TitleSVG from "../images/felixity_the_cat.svg"
+import { ReactComponent as TitleSVG } from "../images/felixity_the_cat.svg"
 
 import { Deck, Heading, Nametag, Footing } from "../components/layouts"
 
@@ -85,9 +85,7 @@ export default function Home({ data }) {
 
         <Deck>
           <Heading>
-            <picture>
-              <img src={TitleSVG} alt="me" />
-            </picture>
+            <TitleSVG style={{ height: `100px` }} />
           </Heading>
 
           <Nametag>
