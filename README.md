@@ -6,7 +6,10 @@ The source code lives in the dev branch and the distribution itself that powers 
 
 ```sh
 yarn
-yarn up
+yarn up -R
+yarn yarn-upgrade-all
+yarn develop
 yarn build
+yarn serve
 yarn deploy
 ```
